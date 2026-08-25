@@ -210,7 +210,7 @@ function colW(ws, widths) { widths.forEach((w, i) => { ws.getColumn(i + 1).width
   dv(ws, 'C4:C500', '카테고리마스터!$A$4:$A$100');
   dv(ws, 'D4:D500', '셀러마스터!$A$4:$A$200');
   dv(ws, 'E4:E500', '채널마스터!$A$4:$A$200');
-  dv(ws, 'S4:S500', '"수동입력,유튜브API,네이버API,기타"');
+  dv(ws, 'S4:S500', '"수동입력,인스타링크 자동입력,유튜브API,네이버API,기타"');
   colW(ws, [5, 22, 11, 10, 11, 12, 12, 10, 11, 13, 11, 11, 11, 14, 14, 9, 14, 12, 12, 10, 12, 20]);
   ws.views = [{ state: 'frozen', ySplit: 3, xSplit: 2 }];
 }
